@@ -1,0 +1,27 @@
+{
+	"name": "AzureExcelSheet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureCallMultipleExcelSheet",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "SheetName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SheetNames"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

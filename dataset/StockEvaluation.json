@@ -1,0 +1,60 @@
+{
+	"name": "StockEvaluation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "StockEvaluation",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ticker",
+				"type": "varchar"
+			},
+			{
+				"name": "stockdt",
+				"type": "date"
+			},
+			{
+				"name": "openprice",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "highprice",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "lowprice",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "closeprice",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "volume",
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "id",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "StockEvaluation"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

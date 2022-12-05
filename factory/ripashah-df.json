@@ -1,0 +1,9 @@
+{
+	"name": "ripashah-df",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "21b41f34-da4a-43eb-a9ef-ecf00c701658",
+		"tenantId": "5ee35505-eb8e-4929-937d-645df5013288"
+	}
+}
